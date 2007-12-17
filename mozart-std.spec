@@ -15,7 +15,6 @@ Patch0:		    %{name}-1.3.1.20040616.fhs.patch.bz2
 #Patch1:		    %{name}-1.3.1.20040616.man.patch.bz2
 BuildRequires:	mozart = %{version}
 Requires:	    mozart = %{version}
-BuildRoot:	    %{_tmppath}/%{name}-%{version}
 
 %description
 This is the standard library for the Mozart Programming System. It currently
