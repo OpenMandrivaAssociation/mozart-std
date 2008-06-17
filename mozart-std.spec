@@ -13,8 +13,8 @@ Group:		    Development/Other
 Source0:	    ftp://ftp.mozart-oz.org/pub/%{version}/tar/%{base_name}-%{version}-std.tar.bz2
 Patch0:		    %{name}-1.3.1.20040616.fhs.patch.bz2
 #Patch1:		    %{name}-1.3.1.20040616.man.patch.bz2
-BuildRequires:	mozart = %{version}
-Requires:	    mozart = %{version}
+BuildRequires:	mozart => %{version}
+Requires:	    mozart => %{version}
 BuildRoot:	    %{_tmppath}/%{name}-%{version}
 
 %description
