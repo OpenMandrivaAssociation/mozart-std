@@ -15,6 +15,8 @@ Patch0:		    %{name}-1.3.1.20040616.fhs.patch.bz2
 #Patch1:		    %{name}-1.3.1.20040616.man.patch.bz2
 BuildRequires:	mozart => %{version}
 Requires:	    mozart => %{version}
+# (tv) needs mozard which doesn't exits on x86_64
+ExcludeArch:	x86_64
 BuildRoot:	    %{_tmppath}/%{name}-%{version}
 
 %description
