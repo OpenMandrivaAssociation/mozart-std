@@ -9,7 +9,7 @@ Version:	    %{version}
 Release:	    %{release}
 Summary:	    Mozart standard library
 License:	    Mozart License
-Url:		    http://www.mozart-oz.org/
+Url:		    https://www.mozart-oz.org/
 Group:		    Development/Other
 Source0:	    ftp://ftp.mozart-oz.org/pub/%{version}/tar/%{base_name}-%{version}.%{date}-std.tar.gz
 Patch0:		    %{name}-1.3.1.20040616.fhs.patch.bz2
