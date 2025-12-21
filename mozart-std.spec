@@ -13,6 +13,11 @@ Url:		    https://www.mozart-oz.org/
 Group:		    Development/Other
 Source0:	    ftp://ftp.mozart-oz.org/pub/%{version}/tar/%{base_name}-%{version}.%{date}-std.tar.gz
 Patch0:		    %{name}-1.3.1.20040616.fhs.patch.bz2
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	mozart = %{version}
 Requires:	    mozart = %{version}
 ExclusiveArch:  %{ix86}
