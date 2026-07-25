@@ -2,7 +2,7 @@
 %define name		%{base_name}-std
 %define version     1.4.0
 %define date        20080704
-%define release		%mkrel 2
+%define release 3
 
 Name:		    %{name}
 Version:	    %{version}
